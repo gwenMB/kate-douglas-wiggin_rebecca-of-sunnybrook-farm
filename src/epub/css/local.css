@@ -172,3 +172,17 @@ footer{
 	margin-right: 0;
 }
 /* End letters */
+
+/* Essay and Short-Story */
+[epub|type~="z3998:essay"] header,
+[epub|type~="z3998:essay"] footer,
+[epub|type~="se:short-story"] header,
+[epub|type~="se:short-story"] footer{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:essay"] header + p,
+[epub|type~="se:short-story"] header + p{
+	margin-top: 1em;
+}
+/* End Essay and Short-Story */
