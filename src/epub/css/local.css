@@ -44,3 +44,22 @@ p span.i1{
 }
 /* End Hymns, Songs, Poetry and Verse */
 
+
+/* Grammar Tables */
+table{
+	border-collapse: collapse;
+	margin: 1em auto;
+}
+
+td{
+	padding-right: 1em;
+}
+
+td:last-child{
+	padding-right: 0;
+}
+
+td:first-child{
+	padding-left: 0;
+}
+/* End Grammar Tables */
