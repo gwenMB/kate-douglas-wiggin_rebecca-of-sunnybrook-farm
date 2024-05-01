@@ -133,3 +133,42 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End epigraphs */
+
+/* Letters */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+
+/* Chapter 4 has three consecutive letters and nothing else, no need for letter margin */
+#chapter-4 [epub|type~="z3998:letter"]{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* nested poem in letter doesn't need double indent */
+[epub|type~="z3998:salutation"] + [epub|type~="z3998:verse"]{
+	margin-left: 0;
+	margin-right: 0;
+}
+/* End letters */
