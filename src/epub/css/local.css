@@ -171,6 +171,12 @@ footer{
 	text-indent: 0;
 }
 
+/* Chapter 4 has three consecutive letters and nothing else, no need for letter margin */
+#chapter-4 [epub|type~="z3998:letter"]{
+	margin-left: 0;
+	margin-right: 0;
+}
+
 /* nested poem in letter doesn't need double indent */
 [epub|type~="z3998:salutation"] + [epub|type~="z3998:verse"]{
 	margin-left: 0;
