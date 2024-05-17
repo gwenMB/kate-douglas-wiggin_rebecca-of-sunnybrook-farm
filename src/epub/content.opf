@@ -37,14 +37,16 @@
 		<meta property="term" refines="#subject-2">sh2009116198</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Children’s</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A talkative girl leaves her home on a farm to go live in town with her two spinster aunts.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Rebecca Randall leaves behind her six siblings and mother at Sunnybrook Farm to go live with her two aunts in the brick house in the fictional town of Riverboro, Maine. Aunt Matilda and Aunt Jane offered to take in Rebecca’s quiet older sister Hanna, but instead they are getting Rebecca whom they remember as “that wild young one” from a short visit three years earlier. Rebecca is a friendly, curious, and imaginative young girl who loves to read. Her mother believes that “the regular schooling and church privileges, as well as the influence of the Sawyer home, would doubtless be ‘the making of Rebecca.’ ”&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Rebecca of Sunnybrook Farm&lt;/i&gt; was a very popular book in its time. &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Mark Twain&lt;/a&gt; called it “beautiful and warm and satisfying,” and &lt;a href="https://standardebooks.org/ebooks/jack-london"&gt;Jack London&lt;/a&gt; wrote, “Rebecca won my heart.” The book was adapted to be a play in 1909. It has also been made into a movie three times. The most recent movie, made in 1938, was a loose adaptation starring Shirley Temple.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
-		<dc:source>https://www.gutenberg.org/ebooks/498</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://fiftywordsforsnow.com/ebooks/rebecca</dc:source>
+		<dc:source>https://archive.org/details/rebeccasunnybro00wigg</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -52,22 +54,21 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/kate-douglas-wiggin_rebecca-of-sunnybrook-farm</meta>
 		<dc:creator id="author">Kate Douglas Wiggin</dc:creator>
 		<meta property="file-as" refines="#author">Wiggin, Kate Douglas</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Kate_Douglas_Wiggin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50015699</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Jessie Willcox Smith</dc:contributor>
+		<meta property="file-as" refines="#artist">Smith, Jessie Willcox</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jessie_Willcox_Smith</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80005675</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Louise Hope</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Hope, Louise Hope</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://fiftywordsforsnow.com/ebooks</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Gwen Byrne</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Byrne, Gwen</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/gwenMB</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
