@@ -42,5 +42,12 @@ p span.i1{
 	font-variant: small-caps;
 	text-align: center;
 }
+
+[epub|type~="z3998:hymn"],
+[epub|type~="z3998:poem"],
+[epub|type~="z3998:song"],
+[epub|type~="z3998:verse"]{
+	margin-right: 0;
+}
 /* End Hymns, Songs, Poetry and Verse */
 
