@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-7.xhtml">
+		<ignore>
+			<code>s-005</code>
+			<reason>Nested blockquote element where the outer blockquote is a letter and the inner one is a poem.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-25.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>8.2.5 When an entire clause is italicized, trailing punctuation is italicized</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
