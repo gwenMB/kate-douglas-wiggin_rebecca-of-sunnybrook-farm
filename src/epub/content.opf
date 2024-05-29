@@ -42,6 +42,7 @@
 		<dc:description id="description">A talkative girl leaves her home on a farm to go live in town with her two spinster aunts.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
+			The book was adapted to be a play in 1909. It has also been made into a movie three times. The most recent, made in 1938, was a loose adaptation starring Shirley Temple. 
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://fiftywordsforsnow.com/ebooks/rebecca</dc:source>
