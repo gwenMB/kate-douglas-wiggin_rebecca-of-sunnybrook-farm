@@ -52,13 +52,8 @@ p span.i1{
 /* End Hymns, Songs, Poetry and Verse */
 
 /* Grammar Tables */
-#chapter-5 blockquote:not([epub|type]) > p{
-	display: inline-block;
-	text-indent: 0;
-}
-
-#chapter-5 blockquote:not([epub|type]) > p + p{
-	padding-left: 2em;
+#chapter-5 ul{
+	list-style-type: none;
 }
 /* End Grammar Tables */
 
